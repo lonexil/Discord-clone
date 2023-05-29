@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<style>
+    html,body{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .bg1{
+     background-color: blue;
+        height: 800px;
+        width: 1500px;
+        margin-top: -200px;
+    }
+    .bg2{
+        background-color: rgb(54, 53, 53);
+        height: 400px;
+        width: 800px;
+        position: relative;
+        left: 280px;
+        top: 260px;
+        border-radius: 10px;
+        
+    }
+    .welcome{
+        color: white;
+        font-size: 25px;
+      position: relative;
+      left: 300px;
+      top: 50px;
+        /* margin-left: 300px ;
+        margin-top: 200px; */
+    }
+    .we{
+        color: rgb(131, 129, 129);
+       position: relative;
+       left: 270px;
+       top: 20px;
+        /* margin-left: 260px;
+        margin-top: 20px; */
+    }
+    .inp1{
+        height: 30px;
+        width: 400px;
+        /* background-color: black; */
+        position: relative;
+        top: 30px;
+        left: -220px;
+        outline: none;
+        
+    }
+    .email{
+        color: white;
+        margin-left: 20px;
+    }
+    .password{
+        color: white;
+        position: relative;
+        left: -620px;
+        top: 80px;
+    }
+    .inp2{
+        height: 30px;
+        width: 400px;
+        position: relative;
+        top: 70px;
+        left: 20px;
+        outline: navy;
+    }
+    .a1{
+        position: relative;
+        top: 110px;
+        left: -390px;
+        color: blue;
+        font-size: 18px;
+    }
+    .button1{
+        background-color: rgb(60, 60, 236);
+        height: 50px;
+        width: 450px;
+        border-radius: 5px;
+        position: relative;
+        left: 20px;
+        top: 110px;
+        outline: none;
+        border: rgb(60, 60, 236);
+        color: white;
+    }
+    .need{
+        color: rgb(131, 129, 129);
+        position: relative;
+        top: 150px;
+        left:-400px ;
+    }
+    .register{
+        color: blue;
+        text-decoration: none;
+        position: relative;
+        top: 150px;
+        left: -400px;
+    }
+    .QR{
+        color: white;
+        font-size: 17px;
+        position: relative;
+        left: 550px;
+        top: -95px;
+    }
+    .scan{
+        color: rgb(131, 129, 129);
+        position: relative;
+        left: 550px;
+        top: -110px;
+    }
+    .image{
+       background-image: url(./images/discord\ qr\ code2.png);
+       background-repeat: no-repeat;
+        height: 160px;
+        width: 150px;
+        position: relative;
+        left: 550px;
+        top: -100px;
+    } 
+    @media screen and (max-width:1100px) {
+        .bg2{
+            margin-left: -150px;
+        }
+        
+    }
+    @media screen and (max-width:942px) {
+        .bg2{
+           position: relative;
+            left: 170px;
+            width: 750px;
+        }
+        
+    }
+    
+    @media screen and (max-width:764px) {
+        .bg2{
+            width:1000px ;
+            height: 800px;
+            margin-left: -180px;
+        
+        }
+        .QR{
+            margin-left: 200px;
+        }
+        .scan{
+            margin-left: 200px;
+        }
+        .image{
+            margin-left: 200px;
+        }
+        .welcome{
+            margin-left: -150px;
+            margin-top: -10px;
+        }
+        .we{
+            margin-left: -150px;
+            /* margin-top: -10px; */
+        }
+        .inp1{
+            margin-top: 20px;
+            width: 250px;
+        }
+        .password{
+            margin-left: 150px;
+            margin-top: -10px;
+        }
+        .inp2{
+            margin-top: 10px;
+            width: 250px;
+        }
+        .a1{
+            margin-left: 230px;
+        }
+        .button1{
+            width: 330px;
+            position: relative;
+            left: -630px;
+             top: 150px;
+            /* top: 50px; */
+            /* margin-left: -650px; */
+
+            
+        }
+        .need{
+          position: relative;
+          left: 100px;
+          
+            /* margin-left: -500px; */
+            /* margin-top: 150px; */
+        }
+        .register{
+            position: relative;
+            left: 100px;
+        }
+    }    
+        
+    
+</style>
+<body>
+    <div class="bg1">
+    <div class="bg2">
+        <h4 class="welcome">Welcome back!</h4>
+        <p class="we">We are so excited to se you again</p>
+        <span class="email">EMAIL OR PHONE NUMBER*</span>
+        <input type="text" class="inp1" style="color: white; background-color: black; border: 1px solid black;">
+        <span class="password">PASSWORD*</span>
+        <input type="text" class="inp2" style="color: white; background-color: black; border: 1px solid black;">
+        <a href="" style="text-decoration: none;" class="a1">forgot your password?</a>
+        <button class="button1">Log In</button>
+        <span class="need">Need an account?</span> <a href="" class="register">Register</a>
+        <div class="image"></div>
+        <h4 class="QR">Log in with QR code</h4>
+        <p class="scan">Scan with the Discord mobile <br> <b>app</b> to log in instantly</p>
+    </div>
+                
+    </div>
+
+</body>
+</html>

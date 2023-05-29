@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Third page</title>   
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  />
+</head>
+<style>
+.bg1{
+    background-color: rgb(29, 28, 28);
+    height: 600px;
+    width: 1500px;
+    overflow-x: hidden;
+}
+.discord{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+.atags{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  font-size: 20px;
+  margin-left: 360px;
+  margin-top: 10px;
+  text-align: right;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+}
+/* .atags:hover  .a{
+    text-decoration: underline;
+} */
+.login{
+    height: 40px;
+    width: 70px;
+    border-radius: 40px;
+    position: relative;
+    left: 1200px;
+    top: -30px;
+    
+
+}
+.img1{
+    background-image: url(./images/just\ chilling3.svg);
+    height: 600px;
+    width: 70%;
+    margin-left: 700px;
+    margin-top: -300px;
+    background-repeat: no-repeat;
+    /* align-content: center; */
+}
+.img2{
+    background-image: url(./images/ios\ download.svg);
+    height: 350px;
+    width: 550px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-top: 50px;
+    align-content: center;
+    
+}
+.img3{
+    background-image: url(./images/android\ download.svg);
+    height: 350px;
+    width: 700px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 100px;
+    align-content: center;
+}
+
+.img4{
+    background-image: url(./images/linux.svg);
+    height: 350px;
+    width: 600px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.img5{
+    background-image: url(./images/mac\ book\ download.svg);
+    height: 350px;
+    width: 600px;
+    background-repeat: no-repeat;
+    margin-top: 60px ;
+    margin-left: 80px;
+}
+.bg4{
+  height: 950px;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+  margin-top: 100px;
+   
+}
+.place{
+  color: rgb(70, 70, 236);
+  font-size: 50px;
+  position: relative;
+  top: 130px;
+  /* left: -20px; */
+  left: 20px;
+}
+/* .img5{
+  background-image: url(../images/usa\ flag.png);
+  height: 140px;
+  width: 140px;
+} */
+.usa{
+ color: white;
+  position: relative;
+  left: 20px;
+  top: 70px;
+}
+.icon{
+  margin-left: -20px;
+}
+.ptags{
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-left: 350px;
+  margin-top: -80px;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+  color: white;
+  margin-left: 310px;
+   margin-top:20px ; 
+}
+.product:hover{
+  text-decoration: underline;
+}
+
+.company{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+  margin: 480px;
+  margin-top: -60px;
+  margin-left: 415px;
+}
+.company:hover{
+  text-decoration: underline;
+}
+.resources{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+  margin-left: 550px;
+  margin-top: -560px;
+}
+.resources:hover{
+  text-decoration: underline;
+}
+.policies{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+  margin-left:660px ;
+  margin-top:-140px ;
+}
+.policies:hover{
+  text-decoration: underline;
+}
+hr{
+  border: 1px solid blue;
+  margin-top: 50px;
+}
+.icons{
+  color: white;
+  position: relative;
+  top: 80px;
+  left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 10%;
+}
+.discord2{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 5%;
+  font-size: 20px;
+  margin-left:30px ;
+}
+.btn5{
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  border: 1px solid blue;
+  background-color: blue;
+  color: blue;
+  margin-left: 1150px;
+  margin-top: -20px;
+}
+.btn5:hover{
+  background-color: rgb(121, 131, 245);
+  border:1px solid rgb(121, 131, 245) ;
+}
+.down:hover{
+    text-decoration: underline;
+}.nitro:hover{
+    text-decoration: underline;
+}
+.login2{
+  display: none;
+  margin-left: -720px;
+}
+@media screen and (max-width:400px) {
+.bg4{
+  width: 700px;
+}
+.ptags{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 60px;
+
+}
+.product{
+  margin-top: -200px;
+}
+  
+}
+@media screen and (max-width:1818px) {
+  .img1{
+    width: 30%;
+  }
+  .discord{
+    font-size: 12px;
+   margin-left: -100px;
+    
+    
+  }
+  .atags{
+    font-size: 13px;
+    width: 25%;
+    margin-left: 120px;
+    margin-top: 15px;
+  }
+  
+  
+}
+@media screen and (max-width:800px) {
+  .img1{
+    display: none;
+    
+  }
+  
+  .ptag1{
+    margin-left: 5px;
+    font-size: 17px;
+  }
+  .firsthtag{
+    font-size: 45px;
+
+  }
+  .login{
+    margin-left:-500px;
+    display: none !important;
+  }
+.login2{
+  display: block !important;
+}
+}
+@media screen and (max-width:400px) {
+.bg4{
+  width: 700px;
+}
+.ptags{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-left: 60px;
+
+}
+.product{
+  margin-top: -170px;
+  margin-left: 350px;
+}
+  
+}
+</style>
+  <div class="bg1">
+ <span class="discord"> <i class="fa-brands fa-discord"></i> Discord</span>
+ <div class="atags">
+    <a href="" style="text-decoration: none; color: white; " class="down">Download</a>
+    <a href="" style="text-decoration: none; color: white;" class="nitro">Ntro</a>
+    <a href="" style="text-decoration: none; color: white;" class="discover">Discover</a>
+    <a href="" style="text-decoration: none; color: white;" class="safety">safety </a>
+    <a href="" style="text-decoration: none; color: white;" class="mod">Mod Academy </a>
+    <a href="" style="text-decoration: none; color: white;" class="support">Support</a>
+    <a href="" style="text-decoration: none; color: white;" class="blog">Blog</a>
+    <a href="" style="text-decoration: none; color: white;" class="career">Careers</a>
+ </div>
+ <button class="login2"><a href="./loginpage.html" style="text-decoration: none ; color: black;">LOGIN</a></button>
+ <button class="login"><a href="./loginpage.html" style="text-decoration: none ; color: black;">LOGIN</a></button>
+ <h4 class="firsthtag" style="color: white; font-size: 55px; margin-left: 50px; ">GET DISCORD FOR <br> ANY DEVICE</h4>
+ <p style="color: white; font-size: 20px; margin-top: -30px; margin-left: 20px;" class="ptag1">An adventure awaits.Hamg out with your friend on a desktop app <br>and keep the conversation going on mobile</p>
+ <button style="background-color: rgb(98, 98, 243); border-radius: 20px; height: 40px; width: 300px; border: 1px solid rgb(98, 98, 243);margin-left: 20px; font-size: 20px; color: white;"><i class="fa-regular fa-arrow-down-to-line"></i> Download For windows</button>
+ <p style="color: white; margin-left: 350px; margin-top: -25px;">windows 7 or higher</p>
+ <div class="img1"></div>
+ 
+ 
+</div>
+<div class="div1" style="background-color: rgb(238, 234, 234); height: 600px; width: 600px; margin-top: 150px; margin-left: 100px; border-radius: 20px;">
+   <h4 style="color: black;  position: relative; top: 40px; left: 250px; font-size: 50px;">ios</h4>
+   <button style="background-color: black; border-radius: 20px; border: 1px solid rgb(212, 211, 211); height: 50px; width: 150px;margin-left: 210px; margin-top: -40px; color: white; font-size: 17px;">Download</button>
+    <div class="img2"></div>
+</div>
+<div class="div2" style="background-color: rgb(238, 234, 234); height: 600px; width: 600px; border-radius: 20px; margin-left: 720px; margin-top: -450px;">
+ <h4 style="color: black; font-size: 40px; position: relative; left: 250px; top: 50px;">Android</h4>
+ <button style="background-color: rgb(43, 42, 42); border: 1px solid rgb(43, 42, 42); border-radius: 20px; height: 50px; width: 150px; color: white; font-size: 16px; position: relative; left: 250px; top: 20px;">Download</button>
+  <div class="img3"></div>
+  <div class="3b"></div>
+</div>
+  <div class="div3" style="background-color: rgb(238, 234, 234); height: 600px; width: 600px ; border-radius: 20px; margin-left: 100px; margin-top: -230px;">
+   <h4 style="color: black; font-size: 40px; position: relative; left: 220px; top: 50px;">Linux</h4>
+   <button style="color: white; font-size: 16px; height: 50px; width: 200px; border-radius: 20px; background-color: black; position: relative; left: 170px;top: 20px;">Download</button>
+   <div class="img4"></div>
+</div>
+<div class="div4" style="background-color: rgb(238, 234, 234); height: 600px; width: 600px; border-radius: 20px; margin-left: 720px; margin-top: -450px;">
+ <h4 style=" font-size: 40px; position: relative; left: 250px; top: 60px;">Mac</h4>
+ <button style="background-color: black; height: 50px; width: 150px; border-radius: 20px; color: white; font-size: 16px; position: relative; left: 220px; top: 30px;">Download</button>
+ <div class="img5"></div>
+</div>
+<div style="background-color: rgb(238, 234, 234); height: 350px; width: 600px; border-radius: 5px; margin-top: -240px; margin-left: 100px;">
+<h4 style="font-size: 40px; position: relative; top: 30px; left: 50px;">Feeling experimental?</h4>
+<p style="font-size: 17px; position: relative; left: 50px;">Try our public Test Build and test new features before they <br> launch.</p>
+<button style="background-color: black; color: white; height: 40px; width: 240px; border-radius:20px; margin-left: 50px; top: 20px;">
+ Download Public Test Build
+</button>
+</div>
+<div class="bg4">
+    <h4 class="place">IMAGINE A  <br> PLACE</h4>
+    <span class="img5"></span>
+    <span class="usa">English,usa</span>
+    <span class="icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </span>
+<div class="ptags">
+    <p>product</p>
+    <p>company</p>
+    <p>Resources</p>
+    <p>Policies</p>
+</div>
+<div class="product">
+    <a href="" class="download" style="text-decoration: none; color: white;">Download</a>
+    <a href="" class="nitro" style="text-decoration: none; color: white;">Nitro</a>
+    <a href="" class="status" style="text-decoration: none; color: white;">Status</a>
+</div>
+<div class="company">
+    <a href="" style="text-decoration: none; color: white;">About</a>
+    <a href="" style="text-decoration: none;color: white;">Jobs</a>
+    <a href="" style="text-decoration: none; color: white;">Branding</a>
+    <a href="" style="text-decoration: none; color: white;">Newsroom</a>
+</div>
+<div class="resources">
+    <a href="" style="text-decoration: none; color: white;">College</a>
+    <a href="" style="text-decoration: none;color: white;">Support</a>
+    <a href="" style="text-decoration: none;color: white;">Safety</a>
+    <a href="" style="text-decoration: none; color: white;">Blog</a>
+    <a href="" style="text-decoration: none; color: white;">Feedback</a>
+    <a href="" style="text-decoration: none;color: white;">Developers</a>
+    <a href="" style="text-decoration: none; color: white;">Streamkits</a>
+    <a href="" style="text-decoration: none;color: white;">Creators</a>
+</div>
+<div class="policies">
+    <a href="" style="text-decoration: none; color: white;">Terms</a>
+    <a href="" style="text-decoration: none; color: white;">Privacy</a>
+    <a href="" style="text-decoration: none; color: white;">Cookies and settings</a>
+    <a href="" style="text-decoration: none; color: white;">Guidelines</a>
+     <a href="" style="text-decoration: none; color: white;">Aknowledgement</a>
+    <a href="" style="text-decoration: none; color: white;">license</a>
+     <a href="" style="text-decoration: none; color: white;">moderation</a>  
+</div> <br> <br> <br><br>
+<hr > <br> <br>
+<div class="discord2">    <div><i class="fa-brands fa-discord"></i> </div>
+<span style="color: white;">DISCORD</span></div>
+<button class="btn5"><a href="./loginpage.html" style="color: black; text-decoration: none;">SIGN IN</a></button>
+
+</div>
+</div>
+ </div>
+
+</body>
+</html>
